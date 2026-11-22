@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "덕아웃에서 월시까지 · 리얼리즘 업데이트",
+  "short_name": "덕아웃에서 월시까지",
+  "description": "고교 야구에서 MLB 월드시리즈까지 이어지는 선수 커리어 게임",
+  "lang": "ko-KR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f1f3f6",
+  "theme_color": "#17263d",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
