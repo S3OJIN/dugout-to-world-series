@@ -1,4 +1,4 @@
-const CACHE='dugout-pwa-v1';
+const CACHE='dugout-pwa-v2';
 const CORE=['./','./index.html','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(CORE);await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith('dugout-pwa-')&&k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim()})()));
